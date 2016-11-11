@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.stopOuterAnimator).setOnClickListener(this);
         findViewById(R.id.startInnerAnimator).setOnClickListener(this);
         findViewById(R.id.stopInnerAnimator).setOnClickListener(this);
-        fractionView.setText("MainActivity");
+        fractionView.setText("88分\n驾驶行为打分");
         fractionView.setInnerRingSpeed(1);
     }
 
